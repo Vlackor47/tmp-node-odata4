@@ -1,0 +1,17 @@
+{
+  "name": "template-cf-mdb-njs",
+  "version": "1.0.0",
+  "description": "Template mongodb CF",
+  "homepage": "",
+  "author": "Vladimir Rodriguez",
+  "engines": {
+    "node": "12.16.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.2.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "path": "^0.12.7"
+  }
+}

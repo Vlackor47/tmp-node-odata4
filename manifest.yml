@@ -1,0 +1,12 @@
+---
+applications:
+- name: template-cf-mbd-njs
+  buildpack: nodejs_buildpack
+  command: node app.js
+  memory: 128M
+  disk_quota: 512M
+  host: template-cf-mbd-njs
+  services:
+  - mongodb
+
+  
